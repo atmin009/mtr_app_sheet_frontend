@@ -1,0 +1,11 @@
+# ไฟล์และโฟลเดอร์ที่ไม่เอาขึ้น GitHub
+node_modules/
+dist/
+.env
+
+# ไม่เอาโฟลเดอร์รูปภาพ (เพราะมันใหญ่และเป็นข้อมูลส่วนตัว)
+server/uploads/
+client/public/uploads/
+# เพิ่มอันนี้เข้าไปครับ
+client/pdf/
+*.pdf

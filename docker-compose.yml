@@ -1,0 +1,16 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mtrsheet-frontend
+    ports:
+      - "80:80"
+    restart: unless-stopped
+    networks:
+      - mtrsheet-network
+
+networks:
+  mtrsheet-network:
+    driver: bridge
+
