@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const API_URL = "http://147.50.254.108:3000/api";
-const BASE_URL = "http://147.50.254.108:3000";
+const API_URL = "https://app-sheet.mtr4263.com/api";
+const BASE_URL = "https://app-sheet.mtr4263.com";
 
 // helper: แปลง /uploads/... -> absolute url
 const toAbsoluteUrl = (maybeUrl) => {

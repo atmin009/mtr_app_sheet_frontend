@@ -1,10 +1,10 @@
 import axios from 'axios';
 
 //  ลิงก์ Backend (server)
-const API_URL = 'http://147.50.254.108:3000/api';
+const API_URL = 'https://app-sheet.mtr4263.com/api';
 
 //  สร้าง Base URL อัตโนมัติ (ตัด /api ออก) เพื่อเอาไปแปะหน้าชื่อรูป
-const BASE_URL = 'http://147.50.254.108:3000';
+const BASE_URL = 'https://app-sheet.mtr4263.com';
 
 export const MySQLService = {
   // --- ใบงาน ---

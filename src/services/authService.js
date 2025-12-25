@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// ลิงก์เดียวกับ api.js ตรงนี้ backend 3000
-const API_URL = 'http://147.50.254.108:3000/api'; 
+// ลิงก์เดียวกับ api.js ตรงนี้ backend
+const API_URL = 'https://app-sheet.mtr4263.com/api'; 
 const SESSION_KEY = 'current_session_v5';
 
 export const AuthService = {
